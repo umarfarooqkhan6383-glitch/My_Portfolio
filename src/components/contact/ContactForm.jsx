@@ -16,7 +16,7 @@ const ContactForm = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:3000/api/v1/students", {
+      const response = await fetch("https://unvanquishing-conjugally-meda.ngrok-free.dev/api/v1/students", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
