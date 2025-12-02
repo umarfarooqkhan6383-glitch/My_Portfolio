@@ -51,7 +51,7 @@ const HireMeModal = ({ onClose }) => {
         if (Object.keys(validationErrors).length === 0) {
             try {
                 const response = await fetch(
-                    "http://localhost:3000/api/v1/hireme",
+                    " https://unvanquishing-conjugally-meda.ngrok-free.dev/api/v1/hireme",
                     {
                         method: "POST",
                         headers: { "Content-Type": "application/json" },
