@@ -4,9 +4,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop.jsx';
 import AppFooter from './components/shared/AppFooter.jsx';
 import AppHeader from './components/shared/AppHeader.jsx';
-import './css/main.css';
 import UseScrollToTop from './hooks/useScrollToTop.jsx';
-
+import './css/main.css'
 const About = lazy(() => import('./pages/AboutMe.jsx'));
 const Contact = lazy(() => import('./pages/Contact.jsx'));
 const Home = lazy(() => import('./pages/Home.jsx'));
