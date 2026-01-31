@@ -32,8 +32,8 @@ const HireMeModal = ({ onClose }) => {
         if (!data.project.trim()) errs.project = "Project is required";
 
         if (!data.description.trim()) errs.description = "Description required";
-        else if (data.description.trim().length < 25)
-            errs.description = "Description must be at least 25 characters";
+        else if (data.description.trim().length < 20)
+            errs.description = "Description must be at least 20 characters";
 
         return errs;
     };
